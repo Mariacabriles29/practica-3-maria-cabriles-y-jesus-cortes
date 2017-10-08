@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: lightgreen;
 	font-family: sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 h1 {
 	width: 700px;
 	text-align: center;
-	background-color:  #E8F8F5;
+	background-color: #D7DBDD;
 
 }
 
@@ -41,4 +41,35 @@ textarea {
 
 	margin-bottom: 0;
 	background-color: lightgray;
+}
+
+table{
+
+	margin-top: 50px;
+}
+
+.titulo{
+	
+	text-align: center;
+}
+
+
+td{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	font-size: 14px;
+	padding: 10px;
+	background-color: #16A085;
+}
+
+.campo{
+
+	text-align: center;
+
+}
+
+.valor{
+
+	text-align: justify;
 }

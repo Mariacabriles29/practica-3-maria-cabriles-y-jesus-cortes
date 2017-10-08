@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php
+
 <html lang="es">
 <head>
 	<title>Retiro de Asignaturas</title>
@@ -9,6 +9,7 @@
 </head>
 <body>
 	<script src="JS/code.js"></script>
+	
 	<div class="principal">
 
 
@@ -18,36 +19,33 @@
 
 		</h1>
 
-		<form name="formulario" action="#" method="POST">
-			<form action="datos.php" method="POST">
-
+		<form name="formulario" action="datos.php" method="POST">
 
 			<fieldset>
 				<div class="row">
 					<label for="name">Nombre:</label><br />
-					<input name="name" class="imput" name="name" type="text" value="" size="30"><br/>
-
+					<input id="name" class="imput" name="name" type="text" value="" size="30"><brid
 				</div>
 
 				<div class="row">
 					<label for="apellido">Apellido:</label><br/>
-					<input name="apellido" class="input" type="text" name="apellido" value="" size="30"><br/>
+					<input id="apellido" class="input" type="text" name="apellido" value="" size="30"><br/>
 				</div>
 
 				<div class="row">
 					<label for="cedula">Cédula:</label><br />
-					<input name="cedula" class="imput" name="cedula" type="number" value="" size="30"><br/>
+					<input id="cedula" class="imput" name="cedula" type="number" value="" size="30"><br/>
 
 				</div>
 
 				<div class="row">
 					<label for="carrera">Carrera que estudia:</label><br/>
-					<input name="carrera" class="input" type="text" name="carrera" value="" size="30"><br/>
+					<input id="carrera" class="input" type="text" name="carrera" value="" size="30"><br/>
 				</div>
 
 				<div class="row">
 					<label for="semestre">Numero del semestre:</label><br/>
-					<input name="semestre" class="input" type="text" name="semestre" value="" size="30"><br/>
+					<input id="semestre" class="input" type="text" name="semestre" value="" size="30"><br/>
 				</div>
 			</fieldset>
 
@@ -56,18 +54,18 @@
 
 				<div class="row">
 					<label for="nombreMateria">Nombre de la Asignatura:</label><br />
-					<input name="nombreMateria" class="imput" name="nombreMateria" type="text" value="" size="30"><br/>
+					<input id="nombreMateria" class="imput" name="nombreMateria" type="text" value="" size="30"><br/>
 
 				</div>
 
 				<div class="row">
 					<label for="codigo">Código de la materia:</label><br/>
-					<input name="codigo" class="input" type="text" name="codigo" value="" size="30"><br/>
+					<input id="codigo" class="input" type="text" name="codigo" value="" size="30"><br/>
 				</div>
 
 				<div class="row">
-					<label for="creditUnits">Unidades de Crédito:</label><br />
-					<input name="creditUnits" class="imput" name="creditUnits" type="number" value="" size="30"><br/>
+					<label for="creditUnits">Uidades de Crédito:</label><br />
+					<input id="creditUnits" class="imput" name="creditUnits" type="number" value="" size="30"><br/>
 
 				</div>
 
@@ -84,4 +82,3 @@
 	</div>
 </body>
 </html>
-?>
