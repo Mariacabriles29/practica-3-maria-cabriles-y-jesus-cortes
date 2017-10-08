@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<?php
 <html lang="es">
 <head>
 	<title>Retiro de Asignaturas</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+
 </head>
 <body>
 	<script src="JS/code.js"></script>
@@ -16,6 +19,8 @@
 		</h1>
 
 		<form name="formulario" action="#" method="POST">
+			<form action="datos.php" method="POST">
+
 
 			<fieldset>
 				<div class="row">
@@ -68,7 +73,7 @@
 
 				<div class="row">
 					<label for="mensaje">Motivo de Retiro:</label><br/>
-					<textarea name="mensaje" class="input" type="text" name="mensaje" ></textarea><br/>
+					<textarea id="mensaje" class="input" type="text" name="mensaje" ></textarea><br/>
 				</div>
 
 			</fieldset>
@@ -79,3 +84,4 @@
 	</div>
 </body>
 </html>
+?>
